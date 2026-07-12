@@ -1,0 +1,18 @@
+{
+  "name": "obit-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend for Obit AI — generates obituaries, eulogies, and memorial program copy",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "docx": "^9.0.2",
+    "stripe": "^16.8.0"
+  }
+}
